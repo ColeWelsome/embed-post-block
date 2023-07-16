@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/embed-post",
+	"version": " 1.0.0",
+	"title": "Embed Post",
+	"category": "widgets",
+	"icon": "text-page",
+	"description": "Embed a post, showing its post title, category, featured images, and meta description.",
+	"supports": {
+		"align": true,
+		"html": false
+	},
+	"attributes": {
+		"selectedPost": {
+			"type": "integer"
+		}
+	},
+	"textdomain": "embed-post",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}

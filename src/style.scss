@@ -1,0 +1,56 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+ .wp-block-create-block-embed-post {
+	margin: 0 auto;
+	border: 1px solid grey;
+	border-radius: 3px;
+	overflow: hidden;
+	max-width:  300px !important;
+}
+
+.wp-block-create-block-embed-post:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 3px rgba(196, 195, 195, 0.5)
+}
+
+.wp-block-create-block-embed-post img {
+	max-width: 100%
+}
+
+.divider-block-embed-post {
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #a09573;
+    margin: 10px auto;
+    padding: 0;
+	width: 10%;
+}
+
+.text-container-embed-post {
+	text-align: center;
+	padding: 0 1em;
+}
+
+.categories-block-embed-post {
+	color: #b85c38;
+	font-size: 0.8em;
+}
+
+.wp-block-create-block-embed-post .title-block-embed-post {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.excerpt-block-embed-post {
+	color: darkgray;
+	font-size: 1em;
+	margin-top: 0;
+}
